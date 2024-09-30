@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXECUTABLE="main"
+EXECUTABLE_NAME="main"
 
 EXPECTED_OUTPUT="$(cat <<EOF
 Default constructor called
@@ -24,12 +24,12 @@ EOF
 
 make > /dev/null
 
-if [ ! -f $EXECUTABLE ]; then
-    echo "Executable not found"
+if [ ! -f $EXECUTABLE_NAME ]; then
+    echo "Executable_NAME not found"
     exit 1
 fi
 
-diff <(./$EXECUTABLE) <(echo "$EXPECTED_OUTPUT")
+diff <(./$EXECUTABLE_NAME) <(echo "$EXPECTED_OUTPUT")
 
 if [ $? -eq 0 ]; then
     echo "Output is correct"
