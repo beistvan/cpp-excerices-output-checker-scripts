@@ -25,7 +25,7 @@ EOF
 make > /dev/null
 
 if [ ! -f $EXECUTABLE_NAME ]; then
-    echo "Executable_NAME not found"
+    echo "Executable ($EXECUTABLE_NAME) not found"
     exit 1
 fi
 
