@@ -23,3 +23,8 @@ This script checks for correct output in the CPP Module 02 Excercises
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex01-output-checker.sh)"
     ```
 
+3. **Run the C++ Module 02 Excercise 02 script using `curl`:**
+
+    ```sh
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex02-output-checker.sh)"
+    ```
