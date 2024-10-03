@@ -1,29 +1,33 @@
-# C++ Module Exercises Output Checking Scripts
-
-## C++ Module 02 Excercises Program Output Checkers
-
-### Run
-`./cpp02-ex00-output-checker.sh`
+## C++ Module Exercises Output Checking Scripts
 
 #### Download and Run the Bash Scripts
 
-This script checks for correct output in the CPP Module 02 Excercises
+Theese scripts check for correct output in the CPP Module Excercises
 
-#### Steps to Download and Run
+#### C++ Module 00 Checkers
 
-1. **Run the C++ Module 02 Excercise 00 script using `curl`:**
+1. **Check the C++ Module 00 Excercise 00:**
+
+    ```sh
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp00-ex00-output-checker.sh)"
+    ```
+
+
+#### C++ Module 02 Checkers
+
+1. **Check the C++ Module 02 Excercise 00:**
 
     ```sh
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex00-output-checker.sh)"
     ```
 
-2. **Run the C++ Module 02 Excercise 01 script using `curl`:**
+2. **Check the C++ Module 02 Excercise 01:**
 
     ```sh
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex01-output-checker.sh)"
     ```
 
-3. **Run the C++ Module 02 Excercise 02 script using `curl`:**
+3. **Check the C++ Module 02 Excercise 02:**
 
     ```sh
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex02-output-checker.sh)"
