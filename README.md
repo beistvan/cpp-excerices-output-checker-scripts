@@ -32,3 +32,9 @@ Theese scripts check for correct output in the CPP Module Excercises
     ```sh
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex02-output-checker.sh)"
     ```
+
+4. **Check the C++ Module 02 Excercise 03:**
+
+    ```sh
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/beistvan/cpp-excerices-output-checker-scripts/main/cpp02-ex03-output-checker.sh)"
+    ```
