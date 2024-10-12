@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXECUTABLE_NAME="bsp"
+EXECUTABLE_NAME="main"
 
 EXPECTED_OUTPUT="$(cat <<EOF
 A: (-2.17969, 1.62891)
