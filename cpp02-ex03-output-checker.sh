@@ -3,13 +3,13 @@
 EXECUTABLE_NAME="main"
 
 EXPECTED_OUTPUT="$(cat <<EOF
-A: (-2.17969, 1.62891)
-B: (3.60156, 2.48828)
-C: (-1.17969, -2.03125)
-D: Inside: (1.30078, 1.64844)
-E: Outside: (-2.19922, -1.60938)
-inside: yes
-outside: yes
+A: (-2.82031, 5.42969)
+B: (0.601562, 1.28906)
+C: (-4.92188, -1.28906)
+D - inside point: (-3.44141, 1.21094)
+E - outside point: (0.480469, 5.57031)
+Is D inside of the triangle? Answer: yes
+Is E inside of the triangle? Answer: yes
 EOF
 )"
 
