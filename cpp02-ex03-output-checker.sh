@@ -3,11 +3,15 @@
 EXECUTABLE_NAME="main"
 
 EXPECTED_OUTPUT="$(cat <<EOF
+Triangle vertices:
 A: (-2.82031, 5.42969)
 B: (0.601562, 1.28906)
 C: (-4.92188, -1.28906)
+
 D - inside point: (-3.44141, 1.21094)
 E - outside point: (0.480469, 5.57031)
+
+BSP:
 Is D inside of the triangle? Answer: yes
 Is E inside of the triangle? Answer: yes
 EOF
