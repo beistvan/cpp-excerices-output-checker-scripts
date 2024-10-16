@@ -11,9 +11,9 @@ C: (-4.92188, -1.28906)
 D - inside point: (-3.44141, 1.21094)
 E - outside point: (0.480469, 5.57031)
 
-BSP:
+BSP - binary space partitioning algorithm:
 Is D inside of the triangle? Answer: yes
-Is E inside of the triangle? Answer: yes
+Is E outside of the triangle? Answer: yes
 EOF
 )"
 
